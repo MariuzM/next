@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "d": "next dev",
+    "b": "next build",
+    "dev": "bun run d",
+    "build": "bun run b",
     "start": "next start",
     "lint": "next lint"
   },
