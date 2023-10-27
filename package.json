@@ -5,6 +5,7 @@
   "scripts": {
     "d": "next dev",
     "b": "next build",
+    "bs": "bun run b && bun run start",
     "dev": "bun run d",
     "build": "bun run b",
     "start": "next start",
